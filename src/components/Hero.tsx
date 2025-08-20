@@ -16,16 +16,23 @@ const Hero = () => {
           </div>
           
           <h2 className="text-3xl md:text-4xl font-light text-nexlng-muted mb-6">
-            Corporate Introduction
+            Specializing in Micro and Mini LNG Solutions
           </h2>
           
-          <p className="text-xl md:text-2xl text-primary font-medium mb-12 leading-relaxed">
+          <p className="text-xl md:text-2xl text-primary font-medium mb-8 leading-relaxed">
             "Empowering Energy, Illuminating Futures"
           </p>
           
-          <p className="text-lg text-nexlng-muted mb-12 max-w-3xl mx-auto leading-relaxed">
-            Leading the future of energy with cutting-edge LNG technology, offshore operations, 
-            and sustainable solutions that power tomorrow's world.
+          <p className="text-lg text-nexlng-muted mb-6 max-w-4xl mx-auto leading-relaxed">
+            A cutting-edge energy solutions company under the <span className="text-primary font-semibold">Vertis Technology group</span>, 
+            founded in 2024 to revolutionize the way natural gas is processed, stored, and transported.
+          </p>
+          
+          <p className="text-base text-nexlng-muted mb-12 max-w-3xl mx-auto leading-relaxed">
+            At the heart of NexLNG's innovation is its proprietary cryogenic technology, which not only removes 
+            high concentrations of CO₂, H₂S and condensates from natural gas streams through its 
+            <span className="text-nexlng-green font-semibold"> gas conditioning and treatment technology</span>, 
+            but also converts the remaining gas into LNG.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
