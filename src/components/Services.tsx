@@ -3,34 +3,40 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const Services = () => {
   const services = [
     {
-      title: "LNG Operations",
-      description: "Comprehensive liquefied natural gas processing, storage, and distribution solutions with industry-leading efficiency and safety standards.",
-      icon: "⚡"
+      title: "Flare Gas Recovery & Monetization",
+      description: "Transforming waste gas into LNG while meeting regulatory compliance, converting flare gas from onshore oil fields and industrial facilities into clean, transportable LNG.",
+      icon: "🔥",
+      highlight: "Environmental Impact"
     },
     {
-      title: "Offshore Drilling",
-      description: "Advanced offshore drilling operations utilizing state-of-the-art platforms and environmental protection technologies.",
-      icon: "🏗️"
+      title: "Scalable & Modular LNG Systems",
+      description: "Providing mobile, cost-efficient LNG process and facility for remote and stranded onshore/offshore locations with rapid deployment capabilities.",
+      icon: "📦",
+      highlight: "Modular Design"
     },
     {
-      title: "Energy Consulting",
-      description: "Strategic energy consulting services to optimize operations, reduce costs, and implement sustainable energy solutions.",
-      icon: "📊"
+      title: "LNG Conversion Solutions",
+      description: "Converting existing power generation and boiler systems to LNG-fueled operations, delivering customized end-to-end systems for cleaner energy.",
+      icon: "⚡",
+      highlight: "Clean Energy"
     },
     {
-      title: "Transportation & Logistics",
-      description: "Specialized LNG transportation services with modern tanker fleets and optimized logistics networks worldwide.",
-      icon: "🚢"
+      title: "Gas Conditioning & Treatment Facilities",
+      description: "Offering various sour & heavy gas removal and filtration systems with proprietary cryogenic technology for high CO₂ and condensate removal.",
+      icon: "🏭",
+      highlight: "Advanced Technology"
     },
     {
-      title: "Infrastructure Development",
-      description: "Design and construction of energy infrastructure including terminals, pipelines, and processing facilities.",
-      icon: "🏭"
+      title: "Cryogenic Vaporizers",
+      description: "Delivering a full range of vaporizers for seamless LNG regasification and industrial applications with superior efficiency and reliability.",
+      icon: "❄️",
+      highlight: "Regasification"
     },
     {
-      title: "Environmental Solutions",
-      description: "Innovative environmental protection and sustainability initiatives that minimize ecological impact.",
-      icon: "🌱"
+      title: "LNG Storage & Logistics",
+      description: "Integrated LNG logistics chain ensuring reliable delivery of liquefied natural gas with versatile storage solutions including horizontal isotanks and vertical tanks.",
+      icon: "🚚",
+      highlight: "Supply Chain"
     }
   ];
 
@@ -39,11 +45,11 @@ const Services = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Our <span className="text-primary">Services</span>
+            Our <span className="text-primary">Solutions</span>
           </h2>
-          <p className="text-xl text-nexlng-muted max-w-3xl mx-auto">
-            Comprehensive energy solutions tailored to meet the evolving needs of 
-            the global energy market with uncompromising quality and reliability.
+          <p className="text-xl text-nexlng-muted max-w-4xl mx-auto">
+            NexLNG provides innovative LNG solutions that address the industry's most pressing challenges, 
+            enabling businesses to transition towards cost-effective, sustainable, and scalable energy systems.
           </p>
         </div>
         
@@ -53,6 +59,9 @@ const Services = () => {
               <CardHeader className="text-center">
                 <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">
                   {service.icon}
+                </div>
+                <div className="inline-block bg-primary text-background px-3 py-1 text-sm rounded-full mb-4 font-semibold">
+                  {service.highlight}
                 </div>
                 <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
                   {service.title}

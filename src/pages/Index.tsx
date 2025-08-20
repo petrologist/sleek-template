@@ -4,6 +4,8 @@ import About from "@/components/About";
 import Achievements from "@/components/Achievements";
 import FoundingStory from "@/components/FoundingStory";
 import Services from "@/components/Services";
+import LNGSolutions from "@/components/LNGSolutions";
+import PowerGeneration from "@/components/PowerGeneration";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -16,6 +18,8 @@ const Index = () => {
       <Achievements />
       <FoundingStory />
       <Services />
+      <LNGSolutions />
+      <PowerGeneration />
       <Contact />
       <Footer />
     </div>
