@@ -6,6 +6,8 @@ import FoundingStory from "@/components/FoundingStory";
 import Services from "@/components/Services";
 import LNGSolutions from "@/components/LNGSolutions";
 import PowerGeneration from "@/components/PowerGeneration";
+import GasTreatment from "@/components/GasTreatment";
+import Sustainability from "@/components/Sustainability";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -20,6 +22,8 @@ const Index = () => {
       <Services />
       <LNGSolutions />
       <PowerGeneration />
+      <GasTreatment />
+      <Sustainability />
       <Contact />
       <Footer />
     </div>

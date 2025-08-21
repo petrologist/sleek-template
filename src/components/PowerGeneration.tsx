@@ -158,6 +158,105 @@ const PowerGeneration = () => {
             </CardContent>
           </Card>
 
+          {/* Vaporizer Solutions */}
+          <Card className="bg-card border-border shadow-elegant">
+            <CardContent className="p-12">
+              <div className="text-center mb-12">
+                <div className="inline-block bg-nexlng-green text-background px-4 py-2 text-sm rounded-full mb-6 font-semibold">
+                  Vaporizer Solutions
+                </div>
+                <h3 className="text-3xl font-bold text-foreground mb-6">
+                  Cryogenic Vaporizers
+                </h3>
+                <p className="text-nexlng-muted leading-relaxed max-w-4xl mx-auto">
+                  NexLNG offers a <span className="text-primary font-semibold">full range of cryogenic vaporizers</span> designed to meet the 
+                  diverse needs of industries working with air gases, LNG, CO2, helium, and hydrogen. Whatever your application, 
+                  we provide the precise vaporizing solution to match the unique demands of your site.
+                </p>
+              </div>
+              
+              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div className="bg-background p-6 rounded-lg border border-border text-center">
+                  <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <div className="w-8 h-8 bg-primary rounded-full"></div>
+                  </div>
+                  <h4 className="text-lg font-bold text-foreground mb-2">Ambient Air Vaporizers</h4>
+                  <p className="text-nexlng-muted text-sm">Energy-efficient atmospheric vaporization</p>
+                </div>
+                
+                <div className="bg-background p-6 rounded-lg border border-border text-center">
+                  <div className="w-16 h-16 bg-nexlng-green/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <div className="w-8 h-8 bg-nexlng-green rounded-full"></div>
+                  </div>
+                  <h4 className="text-lg font-bold text-foreground mb-2">ThermaBlock Electric</h4>
+                  <p className="text-nexlng-muted text-sm">Precise electric heating systems</p>
+                </div>
+                
+                <div className="bg-background p-6 rounded-lg border border-border text-center">
+                  <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <div className="w-8 h-8 bg-accent rounded-full"></div>
+                  </div>
+                  <h4 className="text-lg font-bold text-foreground mb-2">Circulating Water</h4>
+                  <p className="text-nexlng-muted text-sm">Water-based heat exchange systems</p>
+                </div>
+                
+                <div className="bg-background p-6 rounded-lg border border-border text-center">
+                  <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <div className="w-8 h-8 bg-primary rounded-full"></div>
+                  </div>
+                  <h4 className="text-lg font-bold text-foreground mb-2">Water Bath Vaporizers</h4>
+                  <p className="text-nexlng-muted text-sm">High-capacity water bath systems</p>
+                </div>
+              </div>
+              
+              <div className="mt-12 bg-secondary p-8 rounded-lg border border-border">
+                <div className="grid lg:grid-cols-2 gap-8">
+                  <div>
+                    <h4 className="text-xl font-bold text-foreground mb-4">Versatility & Reliability</h4>
+                    <p className="text-nexlng-muted mb-4">
+                      Our vaporizers are built for <span className="text-primary font-semibold">versatility and reliability</span>, 
+                      making them the industry standard for a wide range of applications.
+                    </p>
+                    <ul className="space-y-2 text-nexlng-muted">
+                      <li className="flex items-start">
+                        <span className="text-nexlng-green mr-2">•</span> 
+                        Standalone units to integrated systems
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-nexlng-green mr-2">•</span> 
+                        Storage and transfer piping solutions
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-nexlng-green mr-2">•</span> 
+                        Optimal performance and efficiency
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-foreground mb-4">Applications</h4>
+                    <p className="text-nexlng-muted mb-4">
+                      Whether you're handling LNG or specialized gases, our vaporizers deliver the flexibility and precision you need.
+                    </p>
+                    <ul className="space-y-2 text-nexlng-muted">
+                      <li className="flex items-start">
+                        <span className="text-primary mr-2">✓</span> 
+                        LNG regasification
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-primary mr-2">✓</span> 
+                        Industrial gas applications
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-primary mr-2">✓</span> 
+                        Specialized gas handling
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
           {/* LNG Storage & Logistics */}
           <Card className="bg-card border-border shadow-elegant">
             <CardContent className="p-12">
