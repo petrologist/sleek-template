@@ -88,6 +88,104 @@ const Sustainability = () => {
             </CardContent>
           </Card>
 
+          {/* Sustainable Energy Transition */}
+          <Card className="bg-card border-border shadow-elegant">
+            <CardContent className="p-12">
+              <div className="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                  <div className="inline-block bg-accent text-background px-4 py-2 text-sm rounded-full mb-6 font-semibold">
+                    Energy Transition
+                  </div>
+                  <h3 className="text-3xl font-bold text-foreground mb-6">
+                    Sustainable Energy Transition
+                  </h3>
+                  <p className="text-nexlng-muted leading-relaxed mb-6">
+                    NexLNG is accelerating the shift towards cleaner and more 
+                    efficient energy systems by converting industrial and power 
+                    generation facilities to LNG-fueled solutions, reducing reliance on 
+                    conventional fossil fuels.
+                  </p>
+                  
+                  <div className="space-y-4 mb-6">
+                    <div className="flex items-start">
+                      <div className="w-3 h-3 bg-accent rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                      <div>
+                        <h5 className="font-semibold text-foreground mb-1">Power Plant & Industrial Conversions</h5>
+                        <p className="text-nexlng-muted text-sm">Retrofitting existing diesel and coal-fired systems to operate on LNG, cutting CO2 emissions by up to 30%.</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start">
+                      <div className="w-3 h-3 bg-accent rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                      <div>
+                        <h5 className="font-semibold text-foreground mb-1">Modular LNG Infrastructure</h5>
+                        <p className="text-nexlng-muted text-sm">Deploying scalable LNG production and supply systems to ensure energy security and flexibility for upstream operators and industrial users.</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start">
+                      <div className="w-3 h-3 bg-accent rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                      <div>
+                        <h5 className="font-semibold text-foreground mb-1">Net-Zero Commitments</h5>
+                        <p className="text-nexlng-muted text-sm">Supporting corporate and national sustainability goals by providing a low-carbon alternative that aligns with global energy transition initiatives.</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-primary/10 p-6 rounded-lg border border-primary/20">
+                    <div className="flex items-start">
+                      <div className="w-8 h-8 bg-primary/20 rounded-full flex items-center justify-center mr-4 flex-shrink-0 mt-1">
+                        <div className="w-4 h-4 bg-primary rounded-full"></div>
+                      </div>
+                      <p className="text-primary text-sm font-semibold">
+                        Through innovative LNG solutions, NexLNG is enabling industries to meet emissions targets as well 
+                        as unlocking unrealized gas reserves while ensuring long-term energy security, efficiency and cost 
+                        savings.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="bg-secondary p-8 rounded-lg border border-border">
+                  <h4 className="text-xl font-bold text-foreground mb-6">Transition Benefits</h4>
+                  <div className="space-y-6">
+                    <div className="text-center">
+                      <div className="text-3xl font-bold text-accent mb-2">30%</div>
+                      <p className="text-nexlng-muted text-sm">CO2 emissions reduction compared to conventional fuels</p>
+                    </div>
+                    
+                    <div className="grid grid-cols-2 gap-4">
+                      <div className="bg-background p-4 rounded-lg border border-border text-center">
+                        <div className="text-lg font-bold text-primary mb-1">⚡</div>
+                        <p className="text-nexlng-muted text-xs">Enhanced Efficiency</p>
+                      </div>
+                      <div className="bg-background p-4 rounded-lg border border-border text-center">
+                        <div className="text-lg font-bold text-nexlng-green mb-1">💰</div>
+                        <p className="text-nexlng-muted text-xs">Cost Savings</p>
+                      </div>
+                      <div className="bg-background p-4 rounded-lg border border-border text-center">
+                        <div className="text-lg font-bold text-accent mb-1">🌱</div>
+                        <p className="text-nexlng-muted text-xs">Environmental Compliance</p>
+                      </div>
+                      <div className="bg-background p-4 rounded-lg border border-border text-center">
+                        <div className="text-lg font-bold text-primary mb-1">🔧</div>
+                        <p className="text-nexlng-muted text-xs">Reliable Supply</p>
+                      </div>
+                    </div>
+                    
+                    <div className="bg-background p-4 rounded-lg border border-border">
+                      <h5 className="font-semibold text-foreground mb-2 text-sm">Key Applications</h5>
+                      <ul className="space-y-1 text-nexlng-muted text-xs">
+                        <li>• Power generation facilities</li>
+                        <li>• Industrial manufacturing</li>
+                        <li>• Marine transportation</li>
+                        <li>• Commercial heating systems</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
           {/* Environmental Impact */}
           <Card className="bg-card border-border shadow-elegant">
             <CardContent className="p-12">

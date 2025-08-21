@@ -8,6 +8,7 @@ import LNGSolutions from "@/components/LNGSolutions";
 import PowerGeneration from "@/components/PowerGeneration";
 import GasTreatment from "@/components/GasTreatment";
 import Sustainability from "@/components/Sustainability";
+import CaseStudies from "@/components/CaseStudies";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -24,6 +25,7 @@ const Index = () => {
       <PowerGeneration />
       <GasTreatment />
       <Sustainability />
+      <CaseStudies />
       <Contact />
       <Footer />
     </div>
